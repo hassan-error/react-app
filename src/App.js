@@ -1,5 +1,9 @@
 import logo from "./logo.svg";
 import banner from "./banner.svg";
+import users from "./users.svg";
+import start from "./start.svg"
+import dollar from "./dollar.svg";
+import who from "./who_img.jpg";
 import './App.css';
 
 function App() {
@@ -49,6 +53,50 @@ function App() {
         </div>
     </section>
 
+
+    <section >
+      <div class='features'> 
+      <div class="circle">
+      <img class='features_icon' src={start} alt="image"></img>
+    </div>
+    <div class="circle">
+    <img class='features_icon' src={dollar} alt="image"></img>
+    </div>
+    <div class="circle">
+    <img class='features_icon' src={users} alt="image"></img>
+    </div>
+      </div>
+    </section>
+
+    <section >
+      <div class='features-text'> 
+      <div>
+      24/7 Services
+    </div>
+    <div>
+      Reasonable Rates
+    </div>
+    <div>
+      Experinced Team
+    </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="page_width">
+      <div class="who who-sec">
+      <div class="who-img">
+          <img src={who} alt=""></img>
+        </div>
+        
+        <div>
+          <div class="who-heading">Who we<span> Are?</span></div>
+          <div class="who-para">Home Comfort is a leading multiple service provider company catering to your 360 needs with quality guaranteed. The aim and priority of Home Comfort are to add value to our consumers’ lives by providing smart solutions to all their problems. Our pride is providing the most extensive range of services. From home maintenance to personal assistance.</div>
+          <div class="who-para">We make sure that your safety is never compromised. This is why we hire all the staff under the roof of Home Comfort, just for your satisfaction. Our goal is to become the largest and most famous online home services platform and provide our customers with the best of services and experience. Our experts will give you the most satisfying experience and professionalism. On your demand, all of our best home maintenance and renovation services are available at the very right time and place.</div>
+        </div>
+        </div>
+        </div>
+    </section>
     <footer>
         <div class="coloumn_one">
             <ul>
@@ -103,8 +151,9 @@ function App() {
                 </ul>
             </div>
             
-            
-    </footer>
+            </footer>
+            <div class='copyright'><hr></hr></div>
+            <div class='copyright'>&copy;Copyrights reserved by HomeComfort</div>
     </div>
   );
 }

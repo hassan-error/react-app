@@ -57,7 +57,15 @@ footer {
   display: grid;
   grid-template-columns: 40% 1fr 1fr 25%;
 }
-
+.copyright{
+ width: 1412px;
+ padding: 5px 0% 15px 30%;
+ font-size: 20px;
+ font-weight: 400;
+ line-height: 30px;
+ color: #8F8F8F;
+ ;
+}
 .coloumn_one ul li {
   list-style: none;
   color: #8F8F8F;
@@ -257,4 +265,78 @@ font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
     padding: 10px 20px;
+}
+/*features*/
+.features{
+  width: 1500px;
+  display: grid;
+  padding-left: 25%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.circle {
+  width: 253px;
+  height: 253px;
+  border-radius: 50%;
+  background-color: #ffff; /* You can change the background color */
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.2);}
+.features_icon{
+  padding-top: 18%;
+  width: 150px;
+  height: auto;
+}
+.features-text{
+  width: 1450px;
+  display: grid;
+  padding-top: 15px;
+  padding-left: 25%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    color:#1E1E1E;
+    font-weight: 800;
+    size: 30px;
+    line-height: 40px;
+}
+/*who we are*/
+.who-sec{
+  padding: 50px 0px;
+    background: url("./elipse.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 450px;
+}
+.who{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.who .who-img{
+  padding: 20px;
+}
+.who .who-img img{
+  width: 500px;
+  border-radius: 50%;
+}
+.who-heading{
+  padding-top: 25px;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 71.1px;
+  letter-spacing: -3%;
+}
+.who-heading span{
+  font-size: 60px;
+  font-weight: 700;
+  color: #058B8C;
+}
+.who-para{
+  padding-top: 15px;
+  text-align: left;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 18px;
 }

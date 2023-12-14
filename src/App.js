@@ -111,39 +111,39 @@ function App() {
         <div class="coloumn_two">
             <ul>
                 <li>
-                    Home
+                    <a>Home</a>
                 </li>
                 <li>
-                    Services
+                    <a>Services</a>
                 </li>
                 <li>
-                    Contact Us
+                    <a>Contact Us</a>
                 </li>
             </ul>
         </div>
         <div class="coloumn_three">
             <ul>
                 <li>
-                    Facebook
+                    <a>Facebook</a>
                 </li>
                 <li>
-                    Twitter
+                    <a>Twitter</a>
                 </li>
                 <li>
-                    Linkedin
+                <a>Linkedin</a>
                 </li>
                 <li>
-                    Instagram
+                <a>Instagram</a>
                 </li>
             </ul>
         </div>
         <div class="coloumn_four">
             <ul>
                 <li>
-                    +971 58 67 47 123
+                <a>+971 58 67 47 123</a>
                 </li>
                 <li>
-                    info@homecomfort.com
+                <a>info@homecomfort.com</a>
                 </li>
                 <li class="news_letter">
                     <input type="text" placeholder="Enter Email"></input>
